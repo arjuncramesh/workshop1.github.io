@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <link rel="stylesheet" href="./css/index.css.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -7,87 +7,62 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <title>workshop 1</title>
   </head>
   <body>
     <header>
-      <nav class="first_rectangle container">
-        <div class="first_rectangle-container">
-          <div class="displayflex spacing">
-            <img src="./assets/phone.svg" />
-            <a class="first_rectangle-links" href="#download">Download App</a>
-          </div>
-          <div class="displayflex spacing">
-            <a class="first_rectangle-links blog" href="#blog">Blog</a>
-          </div>
-          <div class="first_rectangle-language displayflex spacing">
-            <label>Language:</label>
-            <select class="first_rectangle-language">
-              <option value="eng">English</option>
-              <option value="mal">Malayalam</option>
-            </select>
-          </div>
-        </div>
-      </nav>
-      <nav class="container">
-        <div class="second-nav-spacing">
-          <div>
-            <img src="./assets/logo.svg" />
-          </div>
-          <div class="displayflex_second-nav">
-            <div class="search-box img-expert">
-              <form class="search-box-inside-inside">
-                <button class="search-box-inside">
-                  <img src="./assets/search.svg" />
-                </button>
-                <input
-                  class="search-box-inside"
-                  type="text"
-                  placeholder="Search all mutal funds"
-                  name="search2"
-                />
-              </form>
-            </div>
-            <!-- <div class="secondnav-secondflex topnav" id="myTopnav"></div> -->
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                <i class="fa fa-bars"></i>
-              </a>
-            <div class="topnav" id="myTopnav">
-              <a class="second-nav-links" href="#Learn with Fund Guru"
-                >Learn with Fund Guru</a
-              >
-              <a class="second-nav-links" href="#Explore Funds"
-                >Explore Funds</a
-              >
-              <a class="second-nav-links" href="# Ask the Expert"
-                >Ask the Expert</a
-              >
-              <a class="second-nav-links" href="#"><b>Login/Register</b></a>
-              
-            </div>
-          </div>
-        </div>
-        <div class="search-box_hidden">
-          <form class="search-box-inside-inside">
-            <button class="search-box-inside">
-              <img src="./assets/search.svg" />
-            </button>
-            <input
-              class="search-box-inside"
-              type="text"
-              placeholder="Search all mutal funds"
-              name="search2"
-            />
-          </form>
-        </div>
-      </nav>
+      <nav class="top-rectangle container">
+        <ul class="top-rectangle-links download-app ">
+            <li class="download_app-blog-language "><img src="./assets/phone.svg" alt="mobile logo" /><a class="download-app" href="Download App">Download App</a></li>
+            <li class="download_app-blog-language"><a class="download-app" href="#">Blog</a></li>
+            <li class="download_app-blog-language " style="display: flex;"><p>Language:</p><select class="language_selection">
+                <option value="eng">English</option>
+                <option value="mal">Malayalam</option>
+              </select></li>
+        </ul>
+    </nav>
+    <nav class="neo-funds-and-links_horizontal container">
+        <img src="./assets/logo.svg" alt="neo funds"/>
+        <form class="search-box-inside-inside">
+          <button class="search-box-inside">
+            <img src="./assets/search.svg"  alt="search box" />
+          </button>
+          <input
+            class="search-box-inside"
+            type="text"
+            placeholder="Search all mutal funds"
+            name="search2"
+          />
+        </form>
+        <a href="javascript:void(0);" class="icon icon-wrapper" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+            <ul class="topnav" id="myTopnav">
+              <li><a href="#home" class="learn_explore_ask_login">Learn with Fund Guru</a></li>
+               <li><a href="#news" class="learn_explore_ask_login">Explore Funds</a></li>
+               <li><a href="#contact" class="learn_explore_ask_login"> Ask the Expert</a></li>
+               <li><a href="#about" class="learn_explore_ask_login"><b>Login/Register</b></a></li>
+            </ul>
+    </nav>
+    <form class="search-box-inside-inside-hidden container">
+      <button class="search-box-inside">
+        <img src="./assets/search.svg"  alt="search box" />
+      </button>
+      <input
+        class="search-box-inside"
+        type="text"
+        placeholder="Search all mutal funds"
+        name="search2"
+      />
+    </form>
     </header>
     <!-- section@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
     <section>
       <div class="container">
-        <div class="fisrt_div">
+        <div class="investing-made-easy_and_image">
           <div>
             <div class="investing_made">
-              <h>Investing made <b class="underline">Easy</b><br />for you</h>
+              <p>Investing made <b class="underline">Easy</b><br />for you</p>
             </div>
             <div class="indias-fastest">
               <p>
@@ -100,20 +75,20 @@
               </p>
             </div>
             <div>
-              <button class="firstdiv-button">Get Started Now</button>
+              <button class="investing-made-button">Get Started Now</button>
             </div>
           </div>
           <div class="image_girl">
-            <img src="./assets/banner1.jpg" />
+            <img src="./assets/banner1.jpg"  alt="banner"/>
           </div>
         </div>
       </div>
       <!-- 2nd green box................................................................................................. -->
-      <div class="second_div_recyangle">
-        <div class="container second_div">
+      <div class="trusted-by-millions-rectangle">
+        <div class="container trusted-by-millions-rectangle-spacing">
           <div>
             <div>
-              <h class="trusted-by-millions">Trusted by Millions of People</h>
+              <p class="trusted-by-millions">Trusted by Millions of People</p>
             </div>
             <div>
               <p class="we-are-registered">
@@ -123,22 +98,22 @@
               </p>
             </div>
           </div>
-          <div class="second_div_div">
-            <div class="second_div_smallboxes">
+          <div class="trusted-by-millions_div">
+            <div class="trusted-by-millions_smallboxes">
               <div class="seconddiv-smallbox-logo">
-                <img src="./assets/Investing1.svg" />
+                <img src="./assets/Investing1.svg"  alt="investing"/>
               </div>
               <div><p>ATR-823742</p></div>
             </div>
-            <div class="second_div_smallboxes">
+            <div class="trusted-by-millions_smallboxes">
               <div class="seconddiv-smallbox-logo">
-                <img src="./assets/Investing2.svg" />
+                <img src="./assets/Investing2.svg"   alt="investing"/>
               </div>
               <div><p>INA2000382</p></div>
             </div>
-            <div class="second_div_smallboxes">
+            <div class="trusted-by-millions_smallboxes">
               <div class="seconddiv-smallbox-logo">
-                <img src="./assets/Investing3.svg" />
+                <img src="./assets/Investing3.svg" alt="investing"/>
               </div>
               <div><p>M.Code 2384</p></div>
             </div>
@@ -146,9 +121,9 @@
         </div>
       </div>
       <!-- 3rd section....................................................................................................................               -->
-      <div class="container third-div">
+      <div class="container about-mutal-funds-container">
         <div>
-          <img  class="img-expert-padding" src="./assets/Fund.svg" />
+          <img  class="img-expert-padding" src="./assets/Fund.svg"   alt="fund logo"/>
         </div>
         <div>
           <div>
@@ -156,43 +131,43 @@
             <p class="learn-with-fund-guru">Learn with Fund Guru</p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg" alt="ok logo"/>
             <p class="mutual-funds-intro">
               Mutual Funds – Introduction and Working
             </p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg"  alt="ok logo"/>
             <p class="mutual-funds-intro">
               Benefits of Investing in Mutual Funds
             </p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg" alt="ok logo"/>
             <p class="mutual-funds-intro">Mutual Fund Schemes and Types</p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg" alt="ok logo"/>
             <p class="mutual-funds-intro">Ways to Choose Mutual Fund Schemes</p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg"alt="ok logo"/>
             <p class="mutual-funds-intro">Offer Documents and Statements</p>
           </div>
           <div class="displayflex">
-            <img src="./assets/ok.svg" />
+            <img src="./assets/ok.svg" alt="ok logo"/>
             <p class="mutual-funds-intro">Transactions in Mutual Funds</p>
           </div>
-          <div class="displayflex">
+          <div class="displayflex know-more_watch-video">
             <button class="second-button">Know More</button>
-            <h class="watchvideo">Watch Video</h>
-            <img src="./assets/play.svg" />
+            <p class="watchvideo">Watch Video</p>
+            <img src="./assets/play.svg" alt="ok logo"/>
           </div>
         </div>
       </div>
       <!-- 4th div...............................................................................................................................                -->
-      <div class="fourthdiv container">
-        <div class="fourthdiv-in">
+      <div class="ask_the_expert-and-image container">
+        <div class="ask_the_expert-and-image-in">
           <div>
             <div>
               <p class="ask-the-expert">Ask the Expert</p>
@@ -201,9 +176,9 @@
               </p>
             </div>
             <div>
-              <div class="fourthdiv_inside">
+              <div class="ask_the_expert-and-image_inside">
                 <div>
-                  <img class="fourthdiv-logo" src="./assets/cash.svg" />
+                  <img class="ask_the_expert-and-image-logo" src="./assets/cash.svg" alt="cash logo"/>
                   <p class="investing-made-easy">Investing made easy</p>
                   <p class="three-simple-options">
                     Three simple options- cautions, balanced, adventurous.<br />Expert
@@ -212,7 +187,7 @@
                   <button class="buttonthird">Invest Now</button>
                 </div>
                 <div>
-                  <img class="fourthdiv-logo" src="./assets/Schedule.svg" />
+                  <img class="ask_the_expert-and-image-logo" src="./assets/Schedule.svg" alt="schedule"/>
                   <p class="investing-made-easy">Schedule a meeting</p>
                   <p class="three-simple-options">
                     Expert will give you the best advice.Schedule a meeting
@@ -224,13 +199,13 @@
             </div>
           </div>
           <div>
-            <img class="img-expert" src="./assets/Expert.png" />
+            <img class="img-expert" src="./assets/Expert.png" alt="expert" />
           </div>
         </div>
       </div>
       <!-- 5th div........................................................................................................................................................ -->
       <div class="container">
-        <div class="fifthdiv">
+        <div class="neo-funds_and-quicklinks">
           <p class="manage-your-investme">
             Manage your Investment from your hand.
           </p>
@@ -240,22 +215,22 @@
           </p>
           <p class="download-the-app-now">Download the App now</p>
           <div class="fifthlogo">
-            <img src="./assets/app.svg" />
-            <img src="./assets/app2.svg" />
+            <img src="./assets/app.svg"  alt="app"/>
+            <img src="./assets/app2.svg" alt="app2"/>
           </div>
         </div>
       </div>
     </section>
     <!-- footer @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ -->
     <footer class="container">
-        <div class="footer_alive">
-            <div class="footer-firstdiv">
+        <div class="neo-funds_and-quicklinks-last-sectionsalive">
+            <div class="neo-funds-and-quicklinks-last-sectionsfirstdiv">
                 <div>
-                  <img src="./assets/logo.svg" />
+                  <img src="./assets/logo.svg"alt="logo"/>
                 </div>
                 <div>
-                  <div class="footer-first-div-inside">
-                    <div class="fourthdiv-links">
+                  <div class="neo-funds-and-quicklinks-last-sectionsfirst-div-inside">
+                    <div class="ask_the_expert-and-image-links">
                       <ul>
                         <li><a class="quick-links" href="#">Quick Links</a></li>
                         <li><a class="explore-funds" href="#">Explore Funds</a></li>
@@ -272,7 +247,7 @@
                         </li>
                       </ul>
                     </div>
-                    <div class="fourthdiv-links">
+                    <div class="ask_the_expert-and-image-links">
                       <ul>
                         <li><a class="quick-links" href="#">Top Funded Houses</a></li>
                         <li><a class="explore-funds" href="#">SBI Mutal Fund</a></li>
@@ -291,7 +266,7 @@
                         </li>
                       </ul>
                     </div>
-                    <div class="fourthdiv-links">
+                    <div class="ask_the_expert-and-image-links">
                       <ul>
                         <li><a class="quick-links" href="#">Resources</a></li>
                         <li><a class="explore-funds" href="#">Calculators</a></li>
@@ -303,8 +278,8 @@
                       <div>
                           <p class="quick-links">Download the App</p>
                           <div>
-                              <img src="./assets/app3.svg">
-                              <img src="./assets/app4.svg">
+                              <img src="./assets/app3.svg"alt="app">
+                              <img src="./assets/app4.svg"alt="app">
                           </div>
                       </div>
                     </div>
@@ -314,6 +289,7 @@
             </div>
             <div>
               <div>
+                <hr>
                   <div class="copyright-logo">
                     <div>
                       <p class="copyright-2019-mutal">
@@ -321,10 +297,10 @@
                       </p>
                     </div>
                     <div class="displayflex">
-                      <img class="footer-end-logos " src="./assets/social 1.svg" />
-                      <img class="footer-end-logos" src="./assets/social 2.svg" />
-                      <img class="footer-end-logos" src="./assets/social 3.svg" />
-                      <img class="footer-end-logos" src="./assets/social 4.svg" />
+                      <img class="neo-funds-and-quicklinks-last-sectionsend-logos " src="./assets/social 1.svg"alt="social"/>
+                      <img class="neo-funds-and-quicklinks-last-sectionsend-logos" src="./assets/social 2.svg" alt="social"/>
+                      <img class="neo-funds-and-quicklinks-last-sectionsend-logos" src="./assets/social 3.svg" alt="social"/>
+                      <img class="neo-funds-and-quicklinks-last-sectionsend-logos" src="./assets/social 4.svg" alt="social"/>
                     </div>
                   </div>
                 </div>
@@ -333,7 +309,7 @@
       <!-- 66666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666666 -->
       <div class="container footerdisapear">
         <div>
-            <img src="./assets/logo.svg" />
+            <img src="./assets/logo.svg" alt="logo"/>
           </div>
           <div>
             <div>
@@ -379,7 +355,7 @@
                   </ul>
             </div>
           </div>
-          <div class="footer-hide_1">
+          <div class="neo-funds-and-quicklinks-last-sectionshide_1">
               <div>
                 <ul>
                     <li class="quick-links">Call Us At</li>
@@ -399,19 +375,20 @@
                   </ul>
               </div>
           </div>
-          <div class="footer-downlaodapp-container">
-                <p class="footer_download-the-app">Download the App</p>
-                <div class="footer_icons">
-                    <img class="footer_icons_padding" src="./assets/app3.svg">
-                    <img class="footer_icons_padding" src="./assets/app4.svg">
+          <div class="neo-funds-and-quicklinks-last-sectionsdownlaodapp-container">
+                <p class="neo-funds_and-quicklinks-last-sectionsdownload-the-app">Download the App</p>
+                <div class="neo-funds_and-quicklinks-last-sectionsicons">
+                    <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/app3.svg" alt="app">
+                    <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/app4.svg" alt="app">
                 </div>
           </div>
+          <hr>
           <div>
-              <div class="footer_icons">
-                  <img class="footer_icons_padding" src="./assets/social 1.svg">
-                  <img class="footer_icons_padding" src="./assets/social 2.svg">
-                  <img class="footer_icons_padding" src="./assets/social 3.svg">
-                  <img class="footer_icons_padding" src="./assets/social 4.svg">
+              <div class="neo-funds_and-quicklinks-last-sectionsicons">
+                  <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/social 1.svg" alt="social1">
+                  <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/social 2.svg" alt="social2">
+                  <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/social 3.svg" alt="social3">
+                  <img class="neo-funds_and-quicklinks-last-sectionsicons_padding" src="./assets/social 4.svg" alt="social4">
               </div>
               <div>
                   <p class="copyright-2019">Copyright 2019 Mutal Funds. All rights reserved.</p>
@@ -420,7 +397,7 @@
       </div>
     </footer>
     <div class="chat">
-        <img src="./assets/chat.svg" alt="chat_button" />
+        <img src="./assets/chat.svg" alt="chat_button"/>
     </div>
   </body>
   <script>
