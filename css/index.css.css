@@ -352,7 +352,7 @@ a {
   margin-left: 1rem;
 }
 /* shortcut */
-.displayflex {
+.between{
   display: flex;
   align-items: center;
 }
